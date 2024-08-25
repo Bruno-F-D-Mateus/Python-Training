@@ -24,9 +24,20 @@ print(x, y) #16  26
 
 Comparison Operators
 
-"""
 
 x = 3 > 2
 y = 3 != 2
 print(x, y) # True  True
+
+Logical Operators
+
+"""
+
+price = 25
+
+print(price > 10 and price < 30) # True
+print(not price > 10) # False
+
+
+
 

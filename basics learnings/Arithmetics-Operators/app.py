@@ -1,3 +1,6 @@
+"""
+Essentials Operators
+
 print(10 + 3) # 13
 print(10 - 3) # 7
 print(10 * 3) # 30
@@ -10,3 +13,13 @@ print(10 ** 2) # 100
 x = 10
 x += 3
 print(x) # 13
+
+
+Precedence Operator
+"""
+
+x = 10 + 3 * 2 # 16
+y = (10 + 3) * 2 # 26
+
+print(x, y) #16  26
+

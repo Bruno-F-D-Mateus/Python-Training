@@ -16,10 +16,17 @@ print(x) # 13
 
 
 Precedence Operator
-"""
 
 x = 10 + 3 * 2 # 16
 y = (10 + 3) * 2 # 26
 
 print(x, y) #16  26
+
+Comparison Operators
+
+"""
+
+x = 3 > 2
+y = 3 != 2
+print(x, y) # True  True
 
